@@ -399,28 +399,9 @@
             &copy; <span id="currentYear"></span> InuuTzyDev
         </div>
     </div>
-        </div>
-        <div class="music-controls flex flex-col items-center mt-3">
-            <button class="play-pause bg-transparent border-none cursor-pointer text-3xl text-[var(--primary-color)] mb-2 transition-all duration-300 hover:scale-125 hover:text-[var(--secondary-color)]" id="playPauseBtn">
-                <i class="fas fa-play" id="playPauseIcon"></i>
-            </button>
-            <div class="progress-container w-full h-1 bg-gray-200 dark:bg-gray-700 rounded-full mb-1 relative overflow-hidden cursor-pointer">
-                <div class="progress-bar h-full bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)] w-0 rounded-full transition-all duration-100 ease-linear" id="progressBar"></div>
-            </div>
-            <div class="time-display w-full flex justify-between text-xs text-gray-500 dark:text-gray-400">
-                <span id="currentTime">0:00</span> / <span id="totalTime">0:00</span>
-            </div>
-        </div>
-        
-        <audio id="audioPlayer" preload="metadata"></audio>
-    </div>
+</div>
 
-    <!-- Minimized Music Player Icon -->
-    <button class="minimized-music-player-icon fixed bottom-5 right-5 w-16 h-16 rounded-full bg-[var(--primary-color)] text-white flex items-center justify-center shadow-lg cursor-pointer z-50 hover:scale-110" id="minimizedMusicPlayerIcon">
-        <i class="fas fa-music text-3xl"></i>
-    </button>
-
-    <script>
+   <script>
         let sisuryaUserData = null;
         let sisuryaCurrentLyricIndex = -1;
         let sisuryaSongDuration = 60;
