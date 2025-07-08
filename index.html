@@ -258,10 +258,6 @@
         const productsGrid = document.getElementById('productsGrid'); // New: Products Grid
         const sisuryaCurrentYear = document.getElementById('currentYear');
        
-        const sisuryaLyricsBackground = document.getElementById('sisuryaLyricsBackground');
-        const minimizedMusicPlayerIcon = document.getElementById('minimizedMusicPlayerIcon');
-        const themeToggleBtn = document.getElementById('themeToggleBtn');
-        const themeIcon = document.getElementById('themeIcon');
 
         // Function to set theme (light/dark)
         function setTheme(theme) {
@@ -276,7 +272,7 @@
             }
         }
 
-        // Initialize theme based on system preference or stored preference
+        // Initializetheme based on system preference or stored preference
         function initializeTheme() {
             const storedTheme = localStorage.getItem('theme');
             if (storedTheme) {
