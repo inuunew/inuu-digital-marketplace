@@ -1,0 +1,17 @@
+/* home.css */
+.banner-container { padding:15px; }
+.slider { position:relative; overflow:hidden; border-radius:14px; }
+.slide { display:none; }
+.slide.active { display:block; }
+.slide img { width:100%; border-radius:14px; }
+.info-box { background:#fff; border-radius:12px; padding:10px; display:flex; align-items:center; gap:8px; margin:10px 15px; border:1px solid #d1fae5; }
+.search-area { display:flex; gap:10px; padding:15px; }
+.search-area input { width:100%; padding:12px; border-radius:10px; border:1px solid #ddd; background:#fff; }
+.game-title { display:flex; align-items:center; gap:12px; padding:0 15px; margin:10px 0; }
+.title-bar { width:6px; height:32px; background:#16a34a; border-radius:6px; }
+.game-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; padding:15px; }
+.game-card { background:#fff; border-radius:18px; padding:12px; cursor:pointer; text-align:center; box-shadow:0 6px 14px rgba(0,0,0,0.05); }
+.game-img img { width:100%; aspect-ratio:1/1; object-fit:contain; border-radius:10px; background:#f9fafb; padding:6px; }
+.menu-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:15px; padding:15px; }
+.menu-card { background:#fff; border-radius:18px; padding:18px; text-align:center; cursor:pointer; box-shadow:0 4px 12px rgba(0,0,0,0.08); }
+.menu-card i { font-size:24px; color:#16a34a; margin-bottom:8px; }

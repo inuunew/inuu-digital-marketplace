@@ -1,0 +1,124 @@
+/* info.css */
+.info-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.header {
+  background: linear-gradient(135deg, #16a34a, #22c55e);
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.header p {
+  margin: 5px 0 0;
+  opacity: 0.9;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-bottom: 80px;
+}
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: 0.2s;
+}
+.card:active {
+  transform: scale(0.98);
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.card-header img {
+  width: 45px;
+  height: 45px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-weight: 600;
+  font-size: 15px;
+  color: #111827;
+}
+.meta {
+  font-size: 12px;
+  color: #6b7280;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+}
+.badge-info, .badge-promo, .badge-event {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  color: white;
+}
+.badge-info { background: #3b82f6; }
+.badge-promo { background: #ef4444; }
+.badge-event { background: #8b5cf6; }
+.dot {
+  font-size: 12px;
+  color: #9ca3af;
+}
+.banner {
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 12px;
+}
+.desc-box {
+  background: #f3f4f6;
+  padding: 12px;
+  border-radius: 14px;
+  margin-top: 12px;
+}
+.desc {
+  font-size: 14px;
+  color: #374151;
+  line-height: 1.5;
+}
+.tags {
+  color: #0ea5e9;
+  font-size: 12px;
+  margin-top: 8px;
+}
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+.popup-box {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  width: 280px;
+  text-align: center;
+}
